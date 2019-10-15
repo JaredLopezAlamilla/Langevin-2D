@@ -5,7 +5,7 @@ Functions required: Murayama2D.m, Langevin2D.m
 
 ## Use example
 
-\>\>Langevin2D;
+`>>Langevin2D`;
 
 Plotting the results:
 
