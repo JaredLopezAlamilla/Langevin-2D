@@ -6,22 +6,24 @@ Functions required: Murayama2D.m, Langevin2D.m
 ## Use example
 
 \>\>Langevin2D;
-plotting the results:
-trajectory over XY plane
 
-\>\>figure(); plot(XX(1,:),XX(2,:));title('$\vec{r}(x_t,y_t)$');
+Plotting the results:
 
-trajectory over XY plane and color gradient indicating time axis
+1. Plotting trajectory over XY plane
 
-\>\>figure(); scatter(XX(1,1:5:end),XX(2,1:5:end),[],TT(1:5:end),'fill');
+`>>figure(); plot(XX(1,:),XX(2,:));title('$\vec{r}(x_t,y_t)$');`
 
-only X component of trajectory
+2. Plotting trajectory over XY plane and color gradient indicating time axis
 
-\>\>figure(); plot(TT,XX(1,:));title('$x(t)$');
+`>>figure(); scatter(XX(1,1:5:end),XX(2,1:5:end),[],TT(1:5:end),'fill');`
 
-only Y componet of trajectory
+3. Plotting only X component of trajectory
 
-\>\>figure(); plot(TT,XX(2,:));title('$y(t)$');
+`>>figure(); plot(TT,XX(1,:));title('$x(t)$');`
+
+4. Plotying only Y componet of trajectory
+
+`>>figure(); plot(TT,XX(2,:));title('$y(t)$');`
 
 
 
